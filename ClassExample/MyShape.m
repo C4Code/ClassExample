@@ -17,14 +17,14 @@
     self.fillColor = [UIColor viewFlipsideBackgroundColor];
 }
 
--(void)test {
+-(void)animateRandomly {
     self.animationDuration = 1.0f;
     self.fillColor = [UIColor colorWithRed:RGBToFloat([C4Math randomInt:255])
                                      green:RGBToFloat([C4Math randomInt:255])
                                       blue:RGBToFloat([C4Math randomInt:255])
                                      alpha:1.0f];
     self.origin = CGPointMake([C4Math randomInt:768],[C4Math randomInt:1024]);
-    [self runMethod:@"test" afterDelay:2.0f];
+    [self runMethod:@"animateRandomly" afterDelay:2.0f];
 }
 
 @end

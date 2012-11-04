@@ -8,11 +8,8 @@
 
 #import "C4Shape.h"
 
-@interface MyShape : C4Shape {
-    //variables
-    int test;
-}
+@interface MyShape : C4Shape
 
-// methods
+-(void)animateRandomly;
 
 @end

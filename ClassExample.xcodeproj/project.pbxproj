@@ -510,6 +510,7 @@
 				EDD173C3163EE07400979139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
